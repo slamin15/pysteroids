@@ -26,10 +26,9 @@ def main():
 
     AsteroidField.containers = updateable
     asteroid_field = AsteroidField()
-    
+
     shots = pygame.sprite.Group()
     Shot.containers = (shots, updateable, drawable)
-    
 
     while True:
         for event in pygame.event.get():
